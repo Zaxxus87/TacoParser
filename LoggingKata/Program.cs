@@ -72,7 +72,8 @@ namespace LoggingKata
 
             Console.WriteLine(one.Name);
             Console.WriteLine(two.Name);
-            Console.WriteLine(distance);
+            distance = Math.Round(distance*0.000621371, 2);
+            Console.WriteLine($"{distance} miles");
 
         }
     }
